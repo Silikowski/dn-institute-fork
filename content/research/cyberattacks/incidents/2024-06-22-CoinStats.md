@@ -35,7 +35,7 @@ The company separately published a [Google Sheet of affected wallet addresses](h
 - **June 22, 2024, 18:17 UTC:** CoinStats posted on [X](https://x.com/CoinStats/status/1804579591698120760) that some iOS users had received a scam notification and that it was investigating that notification issue.
 - **June 22, 2024, 19:57 UTC:** CoinStats posted on [X](https://x.com/CoinStats/status/1804604741197893739) that it was experiencing a separate confirmed security incident affecting wallets created directly within CoinStats and advised users with exported private keys to move funds immediately.
 - **June 22, 2024, about 23:00 UTC:** CoinStats published an [update on X](https://x.com/CoinStats/status/1804633869372559788) stating that the application had been temporarily shut down, that 1,590 wallets were affected, and that it had published a list of impacted addresses.
-- **June 24, 2024:** Unchained reported that CoinStats had temporarily shut down after 1,590 wallets were drained and that CEO Narek Gevorgyan estimated the losses at around $2 million.
+- **June 24, 2024:** [Unchained reported](https://unchainedcrypto.com/coinstats-temporarily-shuts-down-after-1590-wallets-drained/) that CoinStats had temporarily shut down after 1,590 wallets were drained and that CEO Narek Gevorgyan estimated the losses at around  million.
 - **July 12, 2024:** CoinStats published its formal [security incident report](https://coinstats.app/blog/security-incident-report/), stating the later $2.2 million loss figure and describing unauthorized access to infrastructure and third-party services.
 
 ## Security Failure Causes
@@ -46,11 +46,3 @@ The company separately published a [Google Sheet of affected wallet addresses](h
 
 **Notification Abuse Was Publicly Reported but Not Fully Causally Mapped:** CoinStats separately acknowledged that some users received a malicious push notification and in-app message promoting a fake 14.2 ETH reward. Public materials did not fully document whether that notification abuse was a direct extension of the same intrusion path, a parallel abuse vector, or simply a concurrent malicious event during the same incident window.
 
-## References
-
-- [CoinStats X update: scam notification investigation](https://x.com/CoinStats/status/1804579591698120760)
-- [CoinStats X update: wallets created directly within CoinStats affected](https://x.com/CoinStats/status/1804604741197893739)
-- [CoinStats X update: 1,590 wallets affected](https://x.com/CoinStats/status/1804633869372559788)
-- [CoinStats: Security Incident Report](https://coinstats.app/blog/security-incident-report/)
-- [Affected CoinStats Wallet Addresses](https://docs.google.com/spreadsheets/d/1Lwxpy2T6W7aptjBJUio0Z01zihsqknXn6KPhzawQLVI/)
-- [Unchained: CoinStats Temporarily Shuts Down After 1,590 Wallets Drained](https://unchainedcrypto.com/coinstats-temporarily-shuts-down-after-1590-wallets-drained/)
