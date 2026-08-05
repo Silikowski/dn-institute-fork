@@ -11,28 +11,28 @@ loss: 2200000
 
 ## Summary
 
-On June 22, 2024, CoinStats disclosed a security incident affecting wallets created directly within CoinStats Wallet. The company said the incident did not affect externally connected wallets or exchange accounts used only for portfolio tracking, but it did affect exactly 1,590 CoinStats Wallets and led to thefts totaling about $2.2 million.
+On June 22, 2024, CoinStats disclosed a security incident affecting wallets created directly within CoinStats Wallet. In its July 12 [incident report](https://coinstats.app/blog/security-incident-report/), the company said the incident did not affect externally connected wallets or exchange accounts used only for portfolio tracking, but it did affect exactly 1,590 CoinStats Wallets and led to thefts totaling about $2.2 million.
 
-In its July 12 [incident report](https://coinstats.app/blog/security-incident-report/), CoinStats said unauthorized access affected parts of its infrastructure and external service providers, including HashiCorp Vault data used for CoinStats Wallet 2FA PINs and third-party wallet-service APIs, and that, through intrusions across multiple services, the attacker accessed private keys for exactly 1,590 CoinStats Wallets. CoinStats also separately warned users on June 22 about a malicious push notification and in-app message promoting a fake 14.2 ETH reward. Public materials place both events in the same incident window, but they do not publicly establish whether the notification abuse was the delivery path for the wallet thefts or a parallel abuse vector during the same compromise window.
+In its July 12 [incident report](https://coinstats.app/blog/security-incident-report/), CoinStats said unauthorized access affected parts of its infrastructure and external service providers, including HashiCorp Vault data used for CoinStats Wallet 2FA PINs and third-party wallet-service APIs, and that, through intrusions across multiple services, the attacker accessed private keys for exactly 1,590 CoinStats Wallets. CoinStats also separately warned users in a June 22 [X post](https://x.com/CoinStats/status/1804579591698120760) about a malicious push notification and in-app message promoting a fake 14.2 ETH reward. Public materials, including that X post, CoinStats' later [confirmed-incident alert](https://x.com/CoinStats/status/1804604741197893739), and the July 12 incident report, place both events in the same incident window, but they do not publicly establish whether the notification abuse was the delivery path for the wallet thefts or a parallel abuse vector during the same compromise window.
 
 ## Attackers
 
 The attacker or attackers were not publicly identified.
 
-CoinStats stated, after work with law enforcement and external researchers, that its evidence pointed to Lazarus Group or a related organization with nation-state-level capabilities. The cited public materials do not independently substantiate that attribution as a third-party forensic conclusion.
+CoinStats stated in its July 12 [incident report](https://coinstats.app/blog/security-incident-report/), after work with law enforcement and external researchers, that its evidence pointed to Lazarus Group or a related organization with nation-state-level capabilities. The cited public materials do not independently substantiate that attribution as a third-party forensic conclusion.
 
-CoinStats said its response involved Security Alliance, ZachXBT, and Tay from MetaMask, and that the incident was reported to local law enforcement and the FBI.
+CoinStats said in the same [incident report](https://coinstats.app/blog/security-incident-report/) that its response involved Security Alliance, ZachXBT, and Tay from MetaMask, and that the incident was reported to local law enforcement and the FBI.
 
 
 ## Losses
 
-CoinStats said exactly *1,590 CoinStats Wallets* were affected and that about *$2.2 million* in cryptocurrency was stolen.
+CoinStats said in its July 12 [incident report](https://coinstats.app/blog/security-incident-report/) that exactly *1,590 CoinStats Wallets* were affected and that about *$2.2 million* in cryptocurrency was stolen.
 
 CoinStats also published a [Google Sheet of affected wallet addresses](https://docs.google.com/spreadsheets/d/1Lwxpy2T6W7aptjBJUio0Z01zihsqknXn6KPhzawQLVI/). The public list includes both Ethereum and Bitcoin addresses. [Unchained reported](https://unchainedcrypto.com/coinstats-temporarily-shuts-down-after-1590-wallets-drained/) that CEO Narek Gevorgyan said the majority of the stolen funds reportedly belonged to two wallets, but CoinStats did not publish a full official asset-by-asset breakdown in the incident report.
 
 ## Timeline
 
-- **June 22, 2024, approximately 18:00 UTC:** CoinStats said it detected abnormal transfer activity involving wallets created directly within CoinStats Wallet.
+- **June 22, 2024, approximately 18:00 UTC:** CoinStats said in its July 12 [incident report](https://coinstats.app/blog/security-incident-report/) that it detected abnormal transfer activity involving wallets created directly within CoinStats Wallet.
 - **June 22, 2024, 18:17 UTC:** CoinStats posted on [X](https://x.com/CoinStats/status/1804579591698120760) that some iOS users had received a scam notification and that it was investigating that notification issue.
 - **June 22, 2024, 19:57 UTC:** CoinStats posted on [X](https://x.com/CoinStats/status/1804604741197893739) that it was experiencing a confirmed security incident affecting wallets created directly within CoinStats and advised users with exported private keys to move funds immediately.
 - **June 22, 2024, 21:53 UTC:** CoinStats published an [update on X](https://x.com/CoinStats/status/1804633869372559788) stating that the application had been temporarily shut down, that 1,590 wallets were affected, and that it had published a list of impacted addresses.
@@ -42,8 +42,8 @@ CoinStats also published a [Google Sheet of affected wallet addresses](https://d
 
 ## Security Failure Causes
 
-**Infrastructure and Third-Party Service Compromise, According to CoinStats:** CoinStats said the incident involved unauthorized access affecting parts of its infrastructure and external service providers, including HashiCorp Vault data and wallet-service APIs. The cited report does not provide a full public forensic reconstruction of how each accessed system contributed to the wallet thefts.
+**Infrastructure and Third-Party Service Compromise, According to CoinStats:** CoinStats said in its July 12 [incident report](https://coinstats.app/blog/security-incident-report/) that the incident involved unauthorized access affecting parts of its infrastructure and external service providers, including HashiCorp Vault data and wallet-service APIs. The cited report does not provide a full public forensic reconstruction of how each accessed system contributed to the wallet thefts.
 
-**Private-Key Access for CoinStats-Generated Wallets, According to CoinStats:** CoinStats said that, through a combination of intrusions spanning multiple services, the attacker managed to access private keys for exactly 1,590 CoinStats Wallets.
+**Private-Key Access for CoinStats-Generated Wallets, According to CoinStats:** CoinStats said in the same [incident report](https://coinstats.app/blog/security-incident-report/) that, through a combination of intrusions spanning multiple services, the attacker managed to access private keys for exactly 1,590 CoinStats Wallets.
 
-**Notification Abuse Was Publicly Reported but Not Publicly Tied to the Wallet Drains:** CoinStats separately acknowledged that some users received a malicious push notification and in-app message promoting a fake 14.2 ETH reward. Public materials do not fully document whether that notification abuse was a direct extension of the same intrusion path, a parallel abuse vector, or a concurrent malicious event during the same incident window.
+**Notification Abuse Was Publicly Reported but Not Publicly Tied to the Wallet Drains:** CoinStats separately acknowledged in a June 22 [X post](https://x.com/CoinStats/status/1804579591698120760) that some users received a malicious push notification and in-app message promoting a fake 14.2 ETH reward. Public materials, including that post, CoinStats' [confirmed-incident alert](https://x.com/CoinStats/status/1804604741197893739), and the later [incident report](https://coinstats.app/blog/security-incident-report/), do not fully document whether that notification abuse was a direct extension of the same intrusion path, a parallel abuse vector, or a concurrent malicious event during the same incident window.
