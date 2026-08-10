@@ -17,7 +17,7 @@ In its July 12 [incident report](https://coinstats.app/blog/security-incident-re
 
 ## Attackers
 
-The attacker or attackers were not publicly identified.
+No specific individual attacker was publicly identified in CoinStats' public materials.
 
 CoinStats stated in its July 12 [incident report](https://coinstats.app/blog/security-incident-report/), after work with law enforcement and external researchers, that its evidence pointed to Lazarus Group or a related organization with nation-state-level capabilities. The cited public materials do not independently substantiate that attribution as a third-party forensic conclusion.
 
