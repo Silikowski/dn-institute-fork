@@ -5,6 +5,7 @@ entity-types:
   - Wallet
 attack-types:
   - Wallet Hack
+  - Social Engineering
 title: "CoinStats Security Incident Exposes 1,590 Wallets and Leads to $2.2 Million Theft"
 loss: 2200000
 ---
@@ -39,7 +40,7 @@ CoinStats also published a [Google Sheet of affected wallet addresses](https://d
 
 ## Security Failure Causes
 
-**Infrastructure and Third-Party Service Compromise, According to CoinStats:** CoinStats said in its July 12 [incident report](https://coinstats.app/blog/security-incident-report/) that the incident involved unauthorized access affecting parts of its infrastructure and external service providers, including HashiCorp Vault data and wallet-service APIs. The cited report does not provide a full public forensic reconstruction of how each accessed system contributed to the wallet thefts.
+**Infrastructure and Third-Party Service Compromise, According to CoinStats:** CoinStats said in its July 12 [incident report](https://coinstats.app/blog/security-incident-report/) that the incident involved unauthorized access affecting parts of its infrastructure and external service providers, including HashiCorp Vault data and wallet-service APIs. Separately, Cointelegraph reported on June 27 that CoinStats CEO Narek Gevorgyan had said the company's internal investigation found "strong evidence" that the AWS compromise began when an employee was socially engineered into downloading malicious software onto a work computer, framing that step as the suspected initial access vector rather than as an independently verified forensic conclusion. The cited report does not provide a full public forensic reconstruction of how each accessed system contributed to the wallet thefts.
 
 **Private-Key Access for CoinStats-Generated Wallets, According to CoinStats:** CoinStats said in the same [incident report](https://coinstats.app/blog/security-incident-report/) that, through a combination of intrusions spanning multiple services, the attacker managed to access private keys for exactly 1,590 CoinStats Wallets.
 
